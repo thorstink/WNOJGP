@@ -5,8 +5,8 @@ project(wnojgp CXX C)
 
 # Find GTSAM components
 find_package(GTSAM REQUIRED) # Uses installed package
-# include_directories(${GTSAM_INCLUDE_DIR})
-# set(GTSAM_LIBRARIES gtsam)   # TODO: automatic search libs
+include_directories(${GTSAM_INCLUDE_DIR})
+set(GTSAM_LIBRARIES gtsam)   # TODO: automatic search libs
 
 find_package(GTSAMCMakeTools)
 include(GtsamMakeConfigFile)
