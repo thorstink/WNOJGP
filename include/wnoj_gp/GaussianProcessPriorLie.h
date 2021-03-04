@@ -20,7 +20,9 @@
 #include <ostream>
 
 
-namespace gpmp2 {
+namespace wnoj {
+
+
 
 /**
  * 6-way factor for Gaussian Process prior factor on any Lie group
